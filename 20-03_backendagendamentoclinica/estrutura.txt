@@ -1,0 +1,8 @@
+src/
+├── config/         # Configurações de DB (Mongoose) e variáveis de ambiente
+├── controllers/    # Lógica das rotas (Auth, Agendamento, Endereço)
+├── middlewares/    # Proteção de rotas (JWT)
+├── models/         # Esquemas do MongoDB (User, Appointment)
+├── routes/         # Definição dos endpoints
+├── services/       # Chamadas para APIs externas (ViaCEP, OpenWeather)
+└── app.js          # Inicialização do Express
